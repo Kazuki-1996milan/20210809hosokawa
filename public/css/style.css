@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+html,body {
+    background-color: navy;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: white;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.input_form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input_form input[type="text"] {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    outline: none;
+    padding: 5px;
+}
+
+
+.input_form input[type="submit"] {
+  border-radius : 10%;
+  border: solid 2px #ff66ff;
+  font-size     : 9pt;
+  font-weight: bold;
+  text-align    : center;
+  cursor        : pointer;
+  padding       : 10px 16px;
+  background    : #ffffff;
+  color         : #ff66ff;
+  line-height   : 1em;
+  transition    : .3s;
+}
+
+.input_form input[type="submit"]:hover {
+    color         : #ffffff;
+    background    : #ff66ff;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    table-layout: auto;
+}
+
+tr {
+    height: 50px;
+}
+
+th {
+    display: table-cell;
+}
+
+.task_content {
+    width: 90%;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    outline: none;
+}
+
+.remake_action {
+  display       : inline-block;
+  border-radius : 10%;
+  border: solid 2px orange;
+  font-size     : 9pt;
+  font-weight: bold;
+  text-align    : center;
+  cursor        : pointer;
+  padding       : 10px 16px;
+  background    : #ffffff;
+  color         : orange;
+  line-height   : 1em;
+  transition    : .3s;
+  margin-left: auto;
+}
+
+.remake_action:hover {
+    color         : #ffffff;
+    background    : orange;
+}
+
+.delete_action {
+  display       : inline-block;
+  border-radius : 10%;
+  border: solid 2px aquamarine;
+  font-size     : 9pt;
+  font-weight: bold;
+  text-align    : center;
+  cursor        : pointer;
+  padding       : 10px 16px;
+  background    : #ffffff;
+  color         : aquamarine;
+  line-height   : 1em;
+  transition    : .3s;
+  margin-left: auto;
+}
+
+.delete_action:hover {
+    color         : #ffffff;
+    background    : aquamarine;
+}
